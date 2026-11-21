@@ -1,0 +1,7 @@
+id=touchspot_espada
+name=Touch-Dz.7
+version=v4
+versionCode=4
+author=Dz.7
+description=Troca a bolinha do "Mostrar toques" pela espada de diamante do Minecraft.
+updateJson=https://raw.githubusercontent.com/DevRaphas/Touch-Dz.7/main/update.json
