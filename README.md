@@ -1,39 +1,93 @@
-# Touch-Dz.7
+<div align="center">
 
-Módulo que troca a bolinha do **"Mostrar toques"** do Android pela **espada de diamante do Minecraft** em pixel art.
+<img src="assets/banner.png" alt="Touch-Dz.7" width="100%">
 
-<p align="center"><img src="screenshots/espada.png" width="160" alt="Espada"></p>
+<br>
 
-## Download
+[![Download](https://img.shields.io/github/v/release/DevRaphas/Touch-Dz.7?style=for-the-badge&label=Download&color=2bc7b4&logo=github)](https://github.com/DevRaphas/Touch-Dz.7/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/DevRaphas/Touch-Dz.7/total?style=for-the-badge&color=4aedd9&logo=android&logoColor=white)](https://github.com/DevRaphas/Touch-Dz.7/releases)
+[![TikTok](https://img.shields.io/badge/TikTok-@raphaelsantsss-ff0050?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@raphaelsantsss)
 
-Baixe o `Touch-Dz.7.zip` na página de [Releases](https://github.com/DevRaphas/Touch-Dz.7/releases/latest).
+**Troque a bolinha sem graça do "Mostrar toques" pela espada de diamante do Minecraft.**
+<br>
+Pixel art nítida, sem app rodando em segundo plano e sem gastar bateria.
 
-SHA-256 da v4:
+</div>
+
+---
+
+## ⚔️ Antes e depois
+
+<div align="center">
+<img src="assets/antes_depois.png" alt="Antes e depois" width="80%">
+</div>
+
+## ✨ Destaques
+
+| | |
+|---|---|
+| 🗡️ **Pixel art de verdade** | Ampliada sem borrar, cada pixel no lugar |
+| ⚡ **Zero impacto** | É só um overlay do sistema, sem app e sem serviço rodando |
+| 🔄 **Atualização automática** | O gerenciador de módulos avisa quando sai versão nova |
+| 🧹 **Fácil de remover** | Desativou o módulo e reiniciou, voltou ao normal |
+| 🎥 **Feito para vídeo** | Ideal para gravar tela, tutoriais e gameplays |
+
+## 📥 Instalação
+
+1. Baixe o **`Touch-Dz.7.zip`** em [**Releases**](https://github.com/DevRaphas/Touch-Dz.7/releases/latest)
+2. Abra o gerenciador de módulos (**KernelSU**, **Magisk**, **APatch** ou **AgneSU**) e instale o zip
+3. Reinicie o celular
+4. Vá em **Configurações → Opções do desenvolvedor → Mostrar toques** e ative
+
+> [!TIP]
+> Não achou as Opções do desenvolvedor? Vá em **Configurações → Sobre o telefone** e toque 7 vezes em **Versão do sistema** (ou **Número da versão**).
+
+## 📋 Requisitos
+
+- Root ou temp root com suporte a módulos
+- Android 9 ou superior
+
+| Aparelho | Sistema | Status |
+|---|---|---|
+| POCO X7 Pro | HyperOS 3 · Android 16 | ✅ Testado |
+| Outros | — | ❔ Deve funcionar, mas não foi testado |
+
+Testou em outro aparelho? Abra uma [issue](https://github.com/DevRaphas/Touch-Dz.7/issues) contando se funcionou.
+
+## 🔐 Verificação
+
+Confira se o arquivo é o original pelo SHA-256 da **v4**:
 
 ```
 47f0b0d39fe55b7e51aade2566130a812dbe5150863f4b0a817bcd80711e2265
 ```
 
-## Requisitos
+<details>
+<summary><b>🛠️ Como funciona (para os curiosos)</b></summary>
+<br>
 
-- Root ou temp root com suporte a módulos (KernelSU, Magisk, APatch ou AgneSU)
-- Android 9 ou superior
-- Testado no POCO X7 Pro (HyperOS 3, Android 16). Em outros aparelhos pode funcionar, mas não foi testado.
+O módulo instala um overlay estático (`com.dz7.touch`) em `/product/overlay`. Ele substitui os recursos `pointer_spot_touch_icon` e `pointer_spot_touch_vector_icon` do framework do Android, que são a bolinha desenhada pelo "Mostrar toques".
 
-## Instalação
+O código-fonte do overlay está em [`src/`](src).
 
-1. Abra o gerenciador de módulos e instale o `Touch-Dz.7.zip`.
-2. Reinicie o celular.
-3. Vá em **Configurações → Opções do desenvolvedor → Mostrar toques** e ative.
+</details>
 
-Para remover, desative ou desinstale o módulo e reinicie.
+## 📝 Changelog
 
-## Como funciona
+Veja o [changelog.md](changelog.md).
 
-O módulo instala um overlay estático (`com.dz7.touch`) em `/product/overlay` que substitui os recursos `pointer_spot_touch_icon` e `pointer_spot_touch_vector_icon` do framework do Android. O código-fonte do overlay está em [`src/`](src).
+---
 
-## Créditos
+<div align="center">
 
-Criado por **Dz.7**.
+<img src="assets/icone.png" width="96" alt="">
 
-Projeto de fã, sem ligação com a Mojang ou a Microsoft. Minecraft é marca registrada da Mojang Studios.
+### Feito por **Dz.7**
+
+[![TikTok](https://img.shields.io/badge/Me_siga_no_TikTok-@raphaelsantsss-ff0050?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@raphaelsantsss)
+
+Gostou? Deixa uma ⭐ no repositório!
+
+<sub>Projeto de fã, sem ligação com a Mojang ou a Microsoft. Minecraft é marca registrada da Mojang Studios.</sub>
+
+</div>
